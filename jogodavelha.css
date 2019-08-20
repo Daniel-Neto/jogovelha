@@ -1,0 +1,81 @@
+#container{
+   border-color: blue;
+   text-align: center;
+   background-color: blue;
+   padding-top: 40px;
+   
+}
+
+#container2{
+    border-color: aqua;
+    text-align: center;
+    background-color: blue;
+   
+}
+#container3{
+    border-color: blueviolet;
+    text-align: center;
+    background-color: blue;
+    max-height: 124px;
+ 
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+    padding-top: 15px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#regras.p{
+    font-size: 10px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 40px;
+    padding-top: 20px;
+    cursor: pointer;
+    text-align: center;
+        
+    
+}
+ #div1{
+         background-color: aqua;
+     
+    
+        
+}
+ #div2{
+          background-color: brown;
+        
+        
+             
+}
+#div3{
+         background-color: burlywood;
+        
+}
+#div4{
+         background-color: chartreuse;
+ 
+}
+#div5{
+    background-color: cadetblue;
+}
+#div6{
+    background-color: crimson;
+}
+#div7{
+    background-color: darkgoldenrod;
+}
+#div8{
+    background-color: darkgreen;
+}
+#div9{
+    background-color: darksalmon;
+}

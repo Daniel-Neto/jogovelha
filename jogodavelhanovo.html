@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="jogodavelha.css">
+        <title>Jogo da velha</title>
+   
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="div1" class="box" onclick="joga(this.id)">
+               <br>
+            </div>
+            <div id="div2" class="box" onclick="joga(this.id)">
+               <br>
+            </div>
+            <div id="div3" class="box" onclick="joga(this.id)">
+                <br>
+            </div>
+        </div>
+        <div id="container2">
+            <div id="div4" class="box" onclick="joga(this.id)">
+                <br>
+            </div>
+            <div id="div5" class="box" onclick="joga(this.id)">
+                <br>    
+            </div>
+            <div id="div6" class="box" onclick="joga(this.id)">
+                <br>  
+            </div>
+        </div>
+        <div id="container3">
+            <div id="div7" class="box" onclick="joga(this.id)">
+              <br>
+            </div>
+            <div id="div8" class="box" onclick="joga(this.id)">
+              <br>
+            </div>
+            <div id="div9" class="box" onclick="joga(this.id)">
+              <br> 
+            </div>
+        </div>
+            
+            <script>
+
+             var letra = "X";
+
+              function joga(div){
+                    divclicada = document.getElementById(div).innerHTML;
+                    if(divclicada == "X" || divclicada == "O"){
+                        alert('Este quadrado já foi escolhido');
+                    }else{
+                        document.getElementById(div).innerHTML = letra;
+                        console.log(document.getElementById(div).innerHTML);
+                        if(letra == "X"){
+                            letra = "O";
+                        }else{
+                            letra = "X";
+                        }
+                        verifica();
+                    }
+                }
+
+            </script>
+            <script src="jogodavelhanovo.js"></script>
+    </body>
+
+</html>
